@@ -6,7 +6,7 @@ homepage = 'https://github.com/xtony77/pallet-dotchip'
 license = 'MIT'
 name = 'pallet-dotchip'
 repository = 'https://github.com/xtony77/pallet-dotchip'
-version = '1.0.1'
+version = '1.0.2'
 
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']

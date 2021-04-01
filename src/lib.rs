@@ -17,7 +17,7 @@ pub trait Config: frame_system::Config {
 }
 
 decl_storage! {
-	trait Store for Module<T: Config> as TemplateModule {
+	trait Store for Module<T: Config> as DotChip {
 		pub Chip get(fn chip): map hasher(blake2_128_concat) T::AccountId => BalanceOf<T>;
 		pub MoneyPool get(fn money_pool): BalanceOf<T>;
 	}
