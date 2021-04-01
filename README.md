@@ -12,7 +12,7 @@ chip money pallet for polkadot games
 [dependencies]
 ...
 // Add this code
-pallet-dotchip = { default-features = false, version = '1.0.0' }
+pallet-dotchip = { default-features = false, version = '1.0.2' }
 
 [features]
 default = ['std']
